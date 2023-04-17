@@ -1,0 +1,19 @@
+.headerContainer {
+  background-color: teal;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+  font-size: 1.5rem;
+}
+
+.headerFont {
+  text-decoration: none;
+  color: white;
+}
