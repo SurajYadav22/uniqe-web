@@ -20,15 +20,21 @@ export const ContactForm = () => {
   const { name, email, phone_number, message } = contactData;
   return (
     <>
-      <form action="" className="formData" onSubmit={handleSubmit}>
+      <form
+        action=""
+        className="formData"
+        style={{ borderRadius: "10px" }}
+        onSubmit={handleSubmit}
+      >
         <div
           style={{
             textAlign: "center",
             fontSize: "1.5rem",
             fontWeight: "bolder",
+            marginBottom: "15px",
           }}
         >
-          Contact Us Form
+          CONTACT US
         </div>
         <label htmlFor="name">Name</label>
         <input

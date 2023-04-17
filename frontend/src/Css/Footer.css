@@ -22,6 +22,11 @@
   font-weight: 500;
 }
 
+.main-footer h3 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
 .main-footer ul li a {
   color: #ffffffcc;
   text-decoration: none;
@@ -88,6 +93,7 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .info {
     padding: 20px 0;
   }
@@ -97,9 +103,11 @@ footer a {
   .main-footer {
     grid-template-columns: 1fr;
   }
+
   .sociallogos {
     padding: 20px 0;
   }
+
   .com {
     padding: 20px 0;
   }

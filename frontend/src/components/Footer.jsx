@@ -8,17 +8,17 @@ export const Footer = () => {
         <div className="main-footer">
           <div className="logoinfo" data-aos="fade-up">
             <h2>Website</h2>
-            <p>By Suraj</p>
+            <h3>By Suraj Yadav</h3>
 
             <div className="contact-details">
               <h1>Contact Us</h1>
               <li>
                 <div className="fa fa-phone"></div>
-                <a href="tel:+919326048690">+91 1234567890</a>
+                <a href="tel:+919598226214">+91 9598226214</a>
               </li>
               <li>
                 <div className="fa fa-envelope"></div>
-                <a href="mailto:yourmail@gmail.com">suraj@gmail.com</a>
+                <a href="mailto:yourmail@gmail.com">surajybtg@gmail.com</a>
               </li>
             </div>
           </div>

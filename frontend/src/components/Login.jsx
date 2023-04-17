@@ -36,9 +36,10 @@ export const Login = () => {
             textAlign: "center",
             fontSize: "1.5rem",
             fontWeight: "bolder",
+            marginBottom: "15px",
           }}
         >
-          Login
+          ADMIN LOGIN
         </div>
         <label htmlFor="email">Email</label>
         <input type="email" name="" id="email" onChange={emailChange} />

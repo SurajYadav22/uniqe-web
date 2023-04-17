@@ -1,0 +1,95 @@
+ #grid {
+     display: grid;
+     grid-template-columns: repeat(4, minmax(150px, 1fr));
+     grid-gap: 10px;
+ }
+
+
+
+
+ #grid>div {
+
+
+     color: #ffffff;
+     background: #1c87c9;
+     text-align: center;
+ }
+
+
+
+
+ @media (min-width: 320px) and (max-width: 480px) {
+     #grid {
+         display: grid;
+         grid-template-columns: repeat(1, minmax(150px, 1fr));
+         grid-gap: 10px;
+     }
+ }
+
+ @media (min-width: 481px) and (max-width: 768px) {
+     #grid {
+         display: grid;
+         grid-template-columns: repeat(2, minmax(150px, 1fr));
+         grid-gap: 10px;
+     }
+ }
+
+ @media (min-width: 769px) and (max-width: 1024px) {
+     #grid {
+         display: grid;
+         grid-template-columns: repeat(4, minmax(150px, 1fr));
+         grid-gap: 10px;
+     }
+ }
+
+ @media (min-width: 1025px) and (max-width: 1200px) {
+     #grid {
+         display: grid;
+         grid-template-columns: repeat(5, minmax(150px, 1fr));
+         grid-gap: 10px;
+     }
+ }
+
+ @media (min-width: 1201px) {
+     #grid {
+         display: grid;
+         grid-template-columns: repeat(6, minmax(150px, 1fr));
+         grid-gap: 10px;
+     }
+ }
+
+
+
+
+
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     max-width: 300px;
+     margin: auto;
+     text-align: center;
+     font-family: arial;
+     border: 1px solid gray;
+
+
+ }
+
+ .price {
+
+     font-size: 22px;
+ }
+
+ .card button {
+     border: none;
+     outline: 0;
+     padding: 12px;
+     color: white;
+     background-color: black;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+ }
+
+ .card button:hover {
+     opacity: 0.7;
+ }

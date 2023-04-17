@@ -11,16 +11,16 @@ export const HamburgerMenu = () => {
   return (
     <Menu>
       <NavLink className="menu-item" to="/">
-        Home Page
+        HOME
       </NavLink>
       <NavLink className="menu-item" to="/about">
-        About Us
+        ABOUT US
       </NavLink>
       <NavLink className="menu-item" to="/contact">
-        Contact Us
+        CONTACT US
       </NavLink>
       <NavLink className="menu-item" to="admin">
-        Admin Page
+        ADMIN
       </NavLink>
     </Menu>
   );
