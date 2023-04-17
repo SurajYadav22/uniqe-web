@@ -14,8 +14,13 @@ export const ContactForm = () => {
       headers: {
         "Content-Type": "application/json",
       },
+    }).then(() => alert("Details send successfully!"));
+    setContectData({
+      name: "",
+      email: "",
+      phone_number: "",
+      message: "",
     });
-    setContectData({});
   };
   const { name, email, phone_number, message } = contactData;
   return (
