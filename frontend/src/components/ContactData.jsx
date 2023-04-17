@@ -11,10 +11,10 @@ export const ContactData = () => {
       .then((res) => setData(res))
       .catch((err) => console.log(err));
   };
-  console.log(data.data);
+
   return (
     <div>
-      <table className="tableContainer">
+      <table className="tableContainer" style={{ marginTop: "10%" }}>
         <thead>
           <th>Name</th>
           <th>Email</th>
